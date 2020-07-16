@@ -1,0 +1,29 @@
+#head{
+    border:1px solid black;
+}
+#afterhead{
+    background-color: yellow;
+}
+#purple{
+    color: purple;
+}
+#purple1{
+    color: purple;
+}
+#red{
+    color: red;
+}
+#text1{
+    border:2px solid black;
+}
+.jadu{
+    background-color: blue;
+    border-style:dotted;
+    border-color: yellow;
+}
+body{
+    background-color: teal;
+}
+#yelo{
+    color: yellow;
+}

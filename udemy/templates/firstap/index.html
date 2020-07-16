@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello world babe</title>
+<style>
+    body{
+        background-color: aquamarine;
+    }
+</style>
+</head>
+<body>
+
+image loading
+{% comment %} {% load static %}
+<img src="{% static "images/afn.jpg" %}" alt="My image">  {% endcomment %}
+{% comment %} {% for i in insert %}
+    {{i}} {% endcomment %}
+
+{% comment %} {% endfor %} {% endcomment %}
+
+<a href="{% url 'protwo:index' %}">index</a>
+<a href="{% url 'protwo:user' %}">userjadu</a>
+<a href="{% url 'admin:index' %}">user</a>
+<a href="{% url 'index'%}">index2</a>
+</body>
+</html>
